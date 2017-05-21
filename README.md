@@ -11,7 +11,7 @@ Posting so my classmates can use ~ our Java professor makes us concatenate all o
 3. Place the batch file into a batch file directory (create one if you don't already have one)
 4. Place the directory from number 3 into your PATH system environmental variable
 5. Type [Windows Key + R] to bring up `Run`
-6. Type your desired command from Run and, well, run it. Make sure to add quotes around your file/ directory paths if there are spaces anywhere in their path. Otherwise this script won't understand how many arguments there really are and how to use them.
+6. Type your desired command from Run and, well, run it. Make sure to add double quotes around your file/ directory paths if there are spaces anywhere in their path. Otherwise this script won't understand how many arguments there really are and how to use them.
 e.g. `javaToText "C:\Users\aaron\CECS 220\src\assignment_01" "C:\CECS 220\Assignment_01\Last_First_Source_Code.txt"` 
 
 The usage, taken from javaToText.py, is:
