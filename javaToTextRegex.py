@@ -57,7 +57,7 @@ if os.path.isdir(directoryName):
                     javaFileWithNumbers.append(mo.group(2))
                 else:
                     print("I can't parse your file problem numbers.")
-                    print("Try changing up the regex up above to fit how your files are labels.")
+                    print("Try changing up the regex up above to fit how your files are labeled.")
             else:
                 print("The file " + directoryName + "\\" + fileNames[i] + " could not find the matching regex. Moving on...")
             orderedJavaFiles.append(javaFileWithNumbers)
