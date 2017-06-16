@@ -2,7 +2,8 @@
 Posting so my classmates can use ~ our Java professor makes us concatenate all of our assignments into one text file, so this quick and dirty script does that for us.
 ## Usage <sup><sub>(For Windows, since that's the overwhelming majority of us CECS students)<sub><sup>
 
-1. Download the python script
+1. Download the python script  
+    - I <em>highly</em> recommend you use javaToTextRegex.py because it properly sorts your files based on the problem number for easier sorting and inserting in the text file based on your problem label. You can even put that label anywhere you'd like!
 2. Copy the script's exact path name and insert and create a batch file, like that found in javaToText.bat: 
 ```
 @py.exe "C:\example\full\python\executable\path\javaToText.py" %*
@@ -17,4 +18,4 @@ e.g. `javaToText "C:\Users\aaron\CECS 220\src\assignment_01" "C:\CECS 220\Assign
 The usage, taken from javaToText.py, is:
 `Usage: python javaToText.py java_directory_to_copy_from text_file_to_write_to`
 
-<em>Note that the destination file name should probably end in `.txt` here<em>
+<em>Note that the destination file name should probably end in `.txt` here</em>
