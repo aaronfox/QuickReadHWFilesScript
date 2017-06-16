@@ -36,6 +36,7 @@ javaFileRegex = re.compile(r'Problem (\d)(?: -? (\d\d))?')
 if os.path.isdir(directoryName):
     fileNames = os.listdir(directoryName)
     for i in range (len(fileNames)):
+        # Change this line if your source code files are not written in Java
         if fileNames[i].endswith(".java"):
             readFile = open(directoryName + "\\" + fileNames[i], "r")
 
@@ -49,6 +50,10 @@ if os.path.isdir(directoryName):
                 # Make new list to store in orderedJavaFiles list
                 javaFileWithNumbers = [fileNames[i]]
 
+                # This series of conditional statements assumes the preferred label
+                # of "Problem 1 - 02" (with a primary number of 1 and a subnumber 2) 
+                # but will assume any source file that is just labeled "Problem 1"
+                # will have a subNumber of 00
                 if numGroups == 1:
                     javaFileWithNumbers.append(mo.group(1))
                     javaFileWithNumbers.append('00')
