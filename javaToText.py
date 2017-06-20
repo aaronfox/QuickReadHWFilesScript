@@ -5,6 +5,10 @@
 # NOTE: You must surround the directory and file names with quotes if
 # there are space around their respective path names if you are
 # running this from the command line
+#
+# I strongly recommend you use the javaToTextRegex.py instead of this
+# as it will order your files accordingly instead of alphabetically like
+# this. Unless, of course, that is what you want
 
 import os, sys
 

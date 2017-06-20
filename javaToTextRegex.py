@@ -3,7 +3,7 @@
 # javaToTextRegex.py - converts several Java files to one text file using regex to
 # parse where the files should go in order
 #
-# I personally use the format Problem 1 - 01 in every file to label
+# I personally use the format "Problem 1 - 01" in every file to label
 # each problem, so I used a regex to parse where that label is in
 # each file and then used a list of lists to sort the files in their
 # respective order for the text file
